@@ -1,0 +1,15 @@
+.navbar {
+	@apply w-52 h-screen bg-gray-400 overflow-hidden relative;
+	.list {
+		@apply m-2;
+		.listItem {
+			@apply flex items-center gap-4 px-3 py-2 rounded-xl;
+			&:hover {
+				@apply bg-red-200;
+			}
+		}
+		.active {
+			@apply bg-red-200;
+		}
+	}
+}
